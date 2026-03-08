@@ -1,0 +1,62 @@
+* {
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0%;
+    height: 100vh;
+
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+ button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+ }
+ .answer-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+ }
+ .correct{
+    background: green;
+    color: white;
+ }
+ .wrong{
+    background: red;
+    color: white;
+ }
+ .hidden{
+    display: none;
+ }
+ #StartScreen p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #4b0082; /* deep purple, matches MediMind vibe */
+  margin-bottom: 10px;
+}
